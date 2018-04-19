@@ -1,4 +1,13 @@
-h1 {
-  color: red; }
+header {
+  height: 200px;
+  background: #FF787F; }
+
+section {
+  height: 200px;
+  background: #66D7D1; }
+
+footer {
+  height: 200px;
+  background: #FFF87F; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,19 @@
-h1{
-    color:red
+
+//serparamos los estilos por secciones  para facilitar el trabajo
+@import 'variables';
+@import 'header';
+// variables
+//Similares a Js, nos sirven para establecer un valor fijo  y solo cambiamos las variables
+// lo mismo con cualquie propiedad
+
+
+// Organizar archivos
+
+section{
+    height: 200px;
+    background: $colorTres;
+}
+footer{
+    height: 200px;
+    background: $colorCuatro;
 }
