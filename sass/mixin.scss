@@ -1,0 +1,19 @@
+// Trabajo con mixixns
+@mixin cuadrado($fondo, $ancho:200px){
+    background-color: $fondo;
+    height: $ancho;
+    margin-top: 5px;
+    padding: 10px;
+    color: White;
+}
+// Un mixin es una mezvla de atributos de vamos a utilizar
+//  POdemos pasar parametros y ponerlos por defecto como $fondo y anocho
+.cuadradoOne{
+    @include cuadrado(#111, 100px);
+}
+.cuadradoTwo{
+    @include cuadrado(#222)
+}
+.cuadradoTree{
+    @include cuadrado(#333, 300px);
+}
